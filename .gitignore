@@ -205,3 +205,29 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+ml-model/data/raw/
+ml-model/data/processed/
+ml-model/data/landmarks/
+
+# Model checkpoints
+ml-model/models/checkpoints/
+
+# Large media
+*.mp4
+*.avi
+*.mov
+
+# numpy data
+*.npy
+*.npz
+
+# training logs
+logs/
+wandb/
+tensorboard/
+
+# system files
+.DS_Store
+Thumbs.db
